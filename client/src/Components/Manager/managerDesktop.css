@@ -1,0 +1,13 @@
+.manager-desktop{
+    display: flex;
+    background: url("./ManagerSidebar/styling/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.manager-desktop div p{
+    color: beige;
+}
+

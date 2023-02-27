@@ -1,0 +1,85 @@
+.landing-page {
+  background-image: url(./bg.svg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  min-width:1060px;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.landing-page div {
+  display: flex;
+  color: white;
+}
+
+.landing-page div p {
+  color: beige;
+}
+
+.landing-page-nav {
+  display: inline;
+}
+
+.landing-page-nav h2 {
+  width: 20%;
+  margin-left: 50px;
+}
+
+.landing-button {
+  margin-left: 50%;
+}
+
+.landing-button button,#landing-join-us-button {
+  height: 35px;
+  width: 120px;
+  padding-right: 30px;
+  color: white;
+  border: 2px solid #ccc;
+  border-color: #e0c8ac;
+  border-radius: 18px;
+  margin: 20px 30px 0 20px;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.landing-page-message h1 {
+  width: 40%;
+  font-weight: 350;
+  font-size: 50px;
+  margin-top: 70px;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.landing-page-message img {
+  margin-top: 70px;
+  margin-left: 220px;
+}
+
+.landing-page-message h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 50px;
+  width: 27%;
+  text-align: left;
+}
+
+#landing-join-us-button {
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  font-size: 17px;
+  padding-left: 29px;
+}
+
+.landing_page_icon {
+  font-size: 1.5rem;
+  color: #ccc;
+  position: absolute;
+  margin: 0rem ;
+  margin-left: 105px;
+  margin-top: 25px;
+}
